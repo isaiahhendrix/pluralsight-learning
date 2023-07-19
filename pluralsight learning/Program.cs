@@ -69,7 +69,7 @@ bool isDigit = char.IsDigit(userSelection);
 
 bool isLetter = char.IsLetter(userSelection);
 
-int a;
+int a = 0;
 
 
 Console.ReadLine();
