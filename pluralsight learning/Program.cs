@@ -61,19 +61,47 @@ Console.WriteLine("hello " + firstname +" " +lastname);*/
 
 //Console.ReadLine();
 
-int intMaxValue = int.MaxValue;
-int intMinValue = int.MinValue;
-char userSelection = 'a';
-char upperVersion = char.ToUpper(userSelection);
-bool isDigit = char.IsDigit(userSelection);
+//int intMaxValue = int.MaxValue;   //used to see max value of data type
+//int intMinValue = int.MinValue;   //used to see min value of data type
+//char userSelection = 'a';     //used to see default output
+//char upperVersion = char.ToUpper(userSelection);
+//bool isDigit = char.IsDigit(userSelection);
 
-bool isLetter = char.IsLetter(userSelection);
-
-int a = 0;
+//bool isLetter = char.IsLetter(userSelection);
 
 
-Console.ReadLine();
+//Console.ReadLine();
 
+//var hireDate = new DateTime(2022, 3, 28, 14, 30, 0);
+//Console.WriteLine(hireDate);
+
+//DateTime exitDate = new DateTime(2025, 12, 11);
+
+////DateTime invalidDate = new DateTime(2025, 15, 11);
+
+//DateTime startDate = hireDate.AddDays(15);
+//Console.WriteLine(startDate);
+
+//DateTime currentDate = DateTime.Now;
+//bool areWeInDst = currentDate.IsDaylightSavingTime();
+
+//DateTime startHour = DateTime.Now;
+//TimeSpan workTime = new TimeSpan(8, 35, 0);
+//DateTime endHour = startHour.Add(workTime);
+
+//Console.WriteLine(startHour.ToLongDateString());
+//Console.WriteLine(endHour.ToShortDateString());
+
+
+int numberOfHoursWorked = 165;
+
+long veryLongMonth = numberOfHoursWorked; //works fine
+
+double d = 123456789.0;
+
+int x = (int)d; //forcing c# to accept
+
+int intVeryLongMonth = (int)veryLongMonth;
 
 
 
