@@ -276,7 +276,7 @@ for (int i = 0; i < max; i++)
 
     if (i == 5)
     {
-        Console.WriteLine("Bingo!" + i + " was found!");
+        Console.WriteLine("Bingo! " + i + " was found!");
         break;
     }
     Console.WriteLine(i);
